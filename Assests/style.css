@@ -1,3 +1,5 @@
+
+
 /* */
 * {
   box-sizing: border-box;
@@ -15,12 +17,27 @@ header {
 
 .main-header {
   display: flex;
-  /*Puts elements to next line if they dont fit*/
+  /* Puts elements to next line if they dont fit */
   flex-wrap: wrap;
+  /* items are evenly distributed in the line */
   justify-content: space-between;
 }
 
 
+/* when mouse is placed over links/buttons in the header */
+.links:hover {
+  background-color: #772014;
+  color: #fff;
+  /* transition allows links/buttons in border to grow when hovered */
+  transition: all .4s ease-in-out;
+}
+
+/* when user interacts. Links/buttons in the header */
+.links:active {
+  box-shadow: 0 0 10px #000 inset;
+}
+
+/* placeholder img under border */
 .box1 {
   width: 100%;
   height: 200px;
