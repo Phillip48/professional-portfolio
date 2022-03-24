@@ -14,6 +14,9 @@ header {
   color: #fff;
 }
 
+body{
+  background-color: aliceblue;
+}
 
 .main-header {
   display: flex;
