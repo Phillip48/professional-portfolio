@@ -15,7 +15,33 @@ header {
 }
 
 body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: aliceblue;
+}
+
+button {
+  border: none;
+  border-style: none;
+  color: white;
+  background-color: none;
+}
+
+button:hover {
+  background-color: #772014;
+  color: #fff;
+  /* transition allows links/buttons in border to grow when hovered */
+  transition: all .4s ease-in-out;
+}
+
+button:active {
+  box-shadow: 0 0 10px #000 inset;
+}
+
+.flexboxbody {
+
+}
+
+.name-title {
 }
 
 .main-header {
@@ -26,6 +52,9 @@ body{
   justify-content: space-between;
 }
 
+.about-me {
+
+}
 
 /* when mouse is placed over links/buttons in the header */
 .links:hover {
@@ -34,7 +63,6 @@ body{
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
 }
-
 /* when user interacts. Links/buttons in the header */
 .links:active {
   box-shadow: 0 0 10px #000 inset;
@@ -46,12 +74,18 @@ body{
   height: 200px;
 }
 
+
 .about {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 13%;
   color: darkslategrey;
+}
+
+.about-text {
+  position: relative;
+  
 }
 
 /*
