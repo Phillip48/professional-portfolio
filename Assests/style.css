@@ -22,8 +22,9 @@ body{
 button {
   border: none;
   border-style: none;
-  color: white;
+  color: cornflowerblue;
   background-color: none;
+  text-decoration: underline;
 }
 
 button:hover {
@@ -37,10 +38,6 @@ button:active {
   box-shadow: 0 0 10px #000 inset;
 }
 
-.flexboxbody {
-
-}
-
 .name-title {
 }
 
@@ -52,10 +49,12 @@ button:active {
   justify-content: space-between;
 }
 
-.about-me {
-
+.links {
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+  color: cornflowerblue;
 }
-
 /* when mouse is placed over links/buttons in the header */
 .links:hover {
   background-color: #772014;
@@ -75,21 +74,61 @@ button:active {
 }
 
 
-.about {
+/* Flexbox CSS code*/
+.row {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 13%;
-  color: darkslategrey;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding: 1.5rem;
 }
 
-.about-text {
-  position: relative;
+.justify-center {
+  justify-content: center;
+}
+
+.flexbox1 {
+  flex-direction: column;
+  font-size: larger;
+  flex: 1;
+  text-align: end;
+  padding: 1.5rem;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+}
+
+.flexboxtext1 {
+  flex-direction: column;
+  flex: 1.5;
+  padding: 1.5rem;
+  border-left: solid black;
+}
+
+
+.flexbox2 {
+  flex-direction: column;
+  font-size: larger;
+  flex: 1;
+  text-align: end;
+  padding: 1.5rem;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+}
+
+.box2 {
+  width: 80%;
+  height: 35%;
+}
+
+.box3 {
+  
+  width: 25%;
+}
+
+.flexbox3 {
   
 }
 
-/*
-.verticalLine {
-  border-left: thick solid darkslategrey;
-}
-*/
