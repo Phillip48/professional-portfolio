@@ -97,6 +97,7 @@ button:active {
   /* when the screen resizes, make it so our columns don't jump in size */
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .flexboxtext1 {
@@ -116,28 +117,71 @@ button:active {
   /* when the screen resizes, make it so our columns don't jump in size */
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .placeholderimg {
   flex-direction: column;
+  flex-wrap: wrap;
   flex: 1.5;
   padding: 1.5rem;
   border-left: solid black;
 }
 
 .box2 {
-  margin-right: -50%;
+  justify-content: space-between;
   justify-content: flex-end;
   width: 80%;
-  height: 35%;
+  /* height: 40%; */
 }
 
 .box3 {
-  
-  width: 25%;
+  justify-content: flex-end;
+  width: 40%;
+   /* height: 15%; */
 }
 
-.flexbox3 {
-  
+.box4 {
+  justify-content: flex-end;
+  width: 40%;
+  /* height: 15%; */
 }
 
+.flexbox3 { 
+  flex-direction: column;
+  font-size: larger;
+  flex: 1;
+  text-align: end;
+  padding: 1.5rem;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.contactlinks {
+  flex-direction: column;
+  flex: 1.5;
+  padding: 1.5rem;
+  border-left: solid black;
+}
+
+.contactlinksref {
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+
+/* when mouse is placed over links/buttons in the header */
+.contactlinksref:hover {
+  background-color: #772014;
+  color: #fff;
+  /* transition allows links/buttons in border to grow when hovered */
+  transition: all .4s ease-in-out;
+}
+/* when user interacts. Links/buttons in the header */
+.contactlinksref:active {
+  box-shadow: 0 0 10px #000 inset;
+}
