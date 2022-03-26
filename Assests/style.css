@@ -118,7 +118,16 @@ button:active {
   margin-bottom: 1.5rem;
 }
 
+.placeholderimg {
+  flex-direction: column;
+  flex: 1.5;
+  padding: 1.5rem;
+  border-left: solid black;
+}
+
 .box2 {
+  margin-right: -50%;
+  justify-content: flex-end;
   width: 80%;
   height: 35%;
 }
