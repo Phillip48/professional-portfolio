@@ -150,11 +150,13 @@ body{
 }
 
 .contactlinks {
+  display: flex;
   /* flex-direction: column; */
   min-width: 70%;
   flex: 1.5;
   padding: 1.5rem;
   border-left: solid black;
+  justify-content: space-around;
 }
 
 .contactlinksref {
@@ -167,7 +169,7 @@ body{
 
 /* when mouse is placed over links/buttons in the header */
 .contactlinksref:hover {
-  background-color: #772014;
+  color: #772014;
   color: #fff;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
