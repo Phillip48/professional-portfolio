@@ -28,7 +28,7 @@ body{
 }
 
 .name-title {
-  background-color: cadetblue;
+  background-color: steelblue;
   padding: 1rem;
 }
 
@@ -36,7 +36,7 @@ body{
   font-weight: bold;
   font-size: large;
   text-decoration: underline;
-  color: cornflowerblue;
+  color: steelblue;
 }
 /* when mouse is placed over links/buttons in the header */
 .links:hover {
@@ -171,12 +171,12 @@ body{
   font-weight: bold;
   font-size: large;
   text-decoration: underline;
-  color: cornflowerblue;
+  color: steelblue;
 }
 
 /* when mouse is placed over links/buttons in the header */
 .contactlinksref:hover {
-  color: #772014;
+  color: #fff;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
 }
