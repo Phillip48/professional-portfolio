@@ -27,11 +27,6 @@ body{
   justify-content: space-between;
 }
 
-.name-box {
-
-
-}
-
 .name-title {
   background-color: cadetblue;
   padding: 1rem;
@@ -45,7 +40,7 @@ body{
 }
 /* when mouse is placed over links/buttons in the header */
 .links:hover {
-  background-color: #772014;
+  color: #772014;
   color: #fff;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
@@ -170,7 +165,6 @@ body{
 /* when mouse is placed over links/buttons in the header */
 .contactlinksref:hover {
   color: #772014;
-  color: #fff;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
 }
