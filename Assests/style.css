@@ -114,22 +114,34 @@ body{
 }
 
 .box2 {
-  justify-content: space-between;
   justify-content: flex-end;
   width: 80%;
-  /* height: 40%; */
 }
 
 .box3 {
   justify-content: flex-end;
   width: 40%;
-   /* height: 15%; */
+
 }
 
 .box4 {
   justify-content: flex-end;
   width: 40%;
-  /* height: 15%; */
+
+}
+
+.box2,
+.box3,
+.box4 {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  opacity: 0.3;
 }
 
 .flexbox3 { 
