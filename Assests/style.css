@@ -266,22 +266,22 @@ body {
     text-align: center;
   }
   .img-text2 {
-    left: 40px;
+    left: px;
   }
   .img-text3 {
-    left: 40px;
+    left: 56px;
     width: 100px;
   }
   .img-text4 {
-    left: 60px;
+    left: 280px;
     width: 100px;
   }
   .img-text5 {
-    left: 40px;
+    left: 56px;
     width: 100px;
   }
   .img-text6 {
-    left: 60px;
+    left: 280px;
     width: 100px;
   }
 }
@@ -300,7 +300,7 @@ body {
     width: 100px;
   }
   .img-text4 {
-    left: 47px;
+    left: 197px;
     width: 100px;
   }
   .img-text5 {
@@ -308,7 +308,7 @@ body {
     width: 100px;
   }
   .img-text6 {
-    left: 47px;
+    left: 197px;
     width: 100px;
   }
 }
