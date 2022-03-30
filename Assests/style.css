@@ -14,9 +14,9 @@ header {
   color: #fff;
 }
 
-body{
+body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: aliceblue;
+  background-color: rgb(219, 177, 70);
 }
 
 .main-header {
@@ -28,20 +28,21 @@ body{
 }
 
 .name-title {
-  background-color: steelblue;
-  padding: 1rem;
+  /* background-color: steelblue; */
+  padding: 1rem;;
 }
 
 .links {
   font-weight: bold;
   font-size: large;
   text-decoration: underline;
-  color: steelblue;
+  color: floralwhite;
+  text-decoration: wavy;
 }
 /* when mouse is placed over links/buttons in the header */
 .links:hover {
   color: #772014;
-  color: #fff;
+  color: cornflowerblue;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
 }
@@ -50,10 +51,24 @@ body{
   box-shadow: 0 0 10px #000 inset;
 }
 
+.img-container {
+  position: relative;
+}
+
 /* placeholder img under border */
 .box1 {
   width: 100%;
   height: 200px;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 25px;
+  right: 125px;
+  background-color: gray;
+  padding: 1rem;
+  color: floralwhite;
+  font-weight: bolder;
 }
 
 
@@ -105,6 +120,7 @@ body{
 }
 
 .placeholderimg {
+  position: relative;
   min-width: 70%;
   /* flex-direction: column;*/
   flex-wrap: wrap;
@@ -115,19 +131,69 @@ body{
 
 .box2 {
   justify-content: flex-end;
-  width: 80%;
+  padding: .5rem;
+  width: 90%;
+  height: 450px;
+}
+.img-text2 {
+  position: absolute;
+  background-color: gray;
+  padding: 1rem;
+  bottom: 540px;
+  left: 32px;
+  color: floralwhite;
+  font-weight: bolder;
 }
 
 .box3 {
   justify-content: flex-end;
-  width: 40%;
-
+  padding: .5rem;
+  width: 45%;
+  height: 225px;
+}
+.img-text3 {
+  position: absolute;
+  background-color: gray;
+  padding: 1rem;
+  bottom: 310px;
+  left: 32px;
+  color: floralwhite;
+  font-weight: bolder;
 }
 
 .box4 {
   justify-content: flex-end;
-  width: 40%;
+  padding: .5rem;
+  width: 45%;
+  height: 225px;
+}
+.img-text4 {
+  position: absolute;
+  background-color: gray;
+  padding: 1rem;
+  bottom: 310px;
+  left: 814px;
+  color: floralwhite;
+  font-weight: bolder;
+}
 
+.img-text5 {
+  position: absolute;
+  background-color: gray;
+  padding: 1rem;
+  bottom: 80px;
+  left: 32px;
+  color: floralwhite;
+  font-weight: bolder;
+}
+.img-text6 {
+  position: absolute;
+  background-color: gray;
+  padding: 1rem;
+  bottom: 80px;
+  left: 814px;
+  color: floralwhite;
+  font-weight: bolder;
 }
 
 .box2,
@@ -141,7 +207,7 @@ body{
 .box2:hover,
 .box3:hover,
 .box4:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .flexbox3 { 
@@ -163,7 +229,7 @@ body{
   flex: 1.5;
   padding: 1.5rem;
   border-left: solid black;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .contactlinksref {
@@ -171,12 +237,13 @@ body{
   font-weight: bold;
   font-size: large;
   text-decoration: underline;
-  color: steelblue;
+  color: black;
+  text-decoration: wavy;
 }
 
 /* when mouse is placed over links/buttons in the header */
 .contactlinksref:hover {
-  color: #fff;
+  color: cornflowerblue;
   /* transition allows links/buttons in border to grow when hovered */
   transition: all .4s ease-in-out;
 }
@@ -186,22 +253,62 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-  body {
+  * {
     flex-direction: column;
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  * {
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+  }
+  .img-text2 {
+    left: 40px;
+  }
+  .img-text3 {
+    left: 40px;
+    width: 100px;
+  }
+  .img-text4 {
+    left: 60px;
+    width: 100px;
+  }
+  .img-text5 {
+    left: 40px;
+    width: 100px;
+  }
+  .img-text6 {
+    left: 60px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  * {
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+  }
+  .img-text2 {
+    left: 47px;
+  }
+  .img-text3 {
+    left: 47px;
+    width: 100px;
+  }
+  .img-text4 {
+    left: 47px;
+    width: 100px;
+  }
+  .img-text5 {
+    left: 47px;
+    width: 100px;
+  }
+  .img-text6 {
+    left: 47px;
+    width: 100px;
   }
 }
