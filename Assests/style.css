@@ -90,6 +90,8 @@ body {
 }
 
 .bck-text {
+  display: flex;
+  align-items: center;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 76px;
@@ -362,5 +364,14 @@ body {
   }
   .img-text {
     right: 1rem;
+  }
+  #img-WDS,
+  #img-RQG,
+  #img-API,
+  #img-github {
+    height: 7rem;
+  }
+  #img-PWG {
+    height: 10rem;
   }
 }
