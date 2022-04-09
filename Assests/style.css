@@ -25,6 +25,7 @@ body {
   flex-wrap: wrap;
   /* items are evenly distributed in the line */
   justify-content: space-between;
+  width: 100%;
 }
 
 .name-title {
@@ -63,8 +64,8 @@ body {
 
 .img-text {
   position: absolute;
-  bottom: 25px;
-  right: 125px;
+  bottom: 1.563rem; 
+  right: 2rem;
   background-color: gray;
   padding: 1rem;
   color: floralwhite;
@@ -133,14 +134,12 @@ body {
   justify-content: flex-end;
   padding: .5rem;
   width: 90%;
-  height: 450px;
+  height: 28.125rem;
 }
 .img-text2 {
   position: absolute;
   background-color: gray;
   padding: 1rem;
-  bottom: 540px;
-  left: 32px;
   color: floralwhite;
   font-weight: bolder;
 }
@@ -149,14 +148,11 @@ body {
   justify-content: flex-end;
   padding: .5rem;
   width: 45%;
-  height: 225px;
+  height: 14.063rem;
 }
 .img-text3 {
   position: absolute;
   background-color: gray;
-  padding: 1rem;
-  bottom: 310px;
-  left: 32px;
   color: floralwhite;
   font-weight: bolder;
 }
@@ -165,14 +161,12 @@ body {
   justify-content: flex-end;
   padding: .5rem;
   width: 45%;
-  height: 225px;
+  height: 14.063rem;
 }
 .img-text4 {
   position: absolute;
   background-color: gray;
   padding: 1rem;
-  bottom: 310px;
-  left: 814px;
   color: floralwhite;
   font-weight: bolder;
 }
@@ -181,8 +175,6 @@ body {
   position: absolute;
   background-color: gray;
   padding: 1rem;
-  bottom: 80px;
-  left: 32px;
   color: floralwhite;
   font-weight: bolder;
 }
@@ -190,8 +182,6 @@ body {
   position: absolute;
   background-color: gray;
   padding: 1rem;
-  bottom: 80px;
-  left: 814px;
   color: floralwhite;
   font-weight: bolder;
 }
@@ -265,24 +255,13 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .img-text2 {
-    left: px;
-  }
-  .img-text3 {
-    left: 56px;
-    width: 100px;
-  }
-  .img-text4 {
-    left: 280px;
-    width: 100px;
-  }
-  .img-text5 {
-    left: 56px;
-    width: 100px;
-  }
-  .img-text6 {
-    left: 280px;
-    width: 100px;
+}
+
+@media screen and (max-width: 616px) {
+  .flexboxtext1,
+  .placeholderimg,
+  .contactlinks {
+    border-left: none;
   }
 }
 
@@ -292,23 +271,14 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .img-text2 {
-    left: 47px;
+}
+
+@media screen and (max-width: 395px) {
+  .contactlinks {
+    display: flex;
+    flex-direction: column;
   }
-  .img-text3 {
-    left: 47px;
-    width: 100px;
-  }
-  .img-text4 {
-    left: 197px;
-    width: 100px;
-  }
-  .img-text5 {
-    left: 47px;
-    width: 100px;
-  }
-  .img-text6 {
-    left: 197px;
-    width: 100px;
+  .img-text {
+    right: 1rem;
   }
 }
