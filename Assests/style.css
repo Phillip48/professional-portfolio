@@ -57,18 +57,50 @@ body {
   box-shadow: 0 0 10px #000 inset;
 }
 
+.background-container {
+  /* background-image: url(./cabackground-blue.jpg); */
+  background-image: url(./photo-1483728642387-6c3bdd6c93e5.jfif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.logo-img {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
 
 /* Arrow background  */
-/*
 .bck-ground-img {
-  /*background-image: ;*/ /*
-  height: 30%;
-  width: 100%;
+  height: 100%;
+  width: 100%; 
+  background-color: gray;
+  /*
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
 }
-*/
+
+.bck-div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.bck-text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 76px;
+}
+
+.bck-text-h3{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 32px;
+}
+
 .profile {
   display: flex;
 }
@@ -88,6 +120,9 @@ body {
 }
 
 .img-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
 }
 
@@ -260,7 +295,7 @@ body {
 .contactlinksref {
   align-items: center;
   font-weight: bold;
-  font-size: large;
+  font-size: larger;
   text-decoration: underline;
   color: black;
   text-decoration: wavy;
