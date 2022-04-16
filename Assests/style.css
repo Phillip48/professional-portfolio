@@ -447,6 +447,11 @@ body {
   .contactlinks {
     border-left: none;
   }
+  .flexbox1,
+  .flexbox2,
+  .flexbox3 {
+    margin: 0;
+  }
   #name-logo {
     width: 30rem;
   }
@@ -502,6 +507,15 @@ body {
 
 
 @media screen and (max-width: 370px) {
+  .placeholderimg {
+    display: flex;
+  }
+  .box2,
+  .box3,
+  .box4 {
+    min-width: 70%;
+    height: 10rem;
+  }
   #name-logo {
     width: 20rem;
   }
@@ -518,5 +532,17 @@ body {
   .menu-btn {
     display: flex;
   }
-  
 }
+
+@media screen and (max-width: 300px) {
+  .flexbox1,
+  .flexbox2,
+  .flexbox3 {
+    padding: 0;
+    margin: 0;
+  }
+  #name-logo {
+    width: 15rem;
+  }
+}
+
