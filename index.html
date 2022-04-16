@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Links CSS Stylesheet-->
     <link rel="stylesheet" href="./Assests/style.css">
     <title>Professional Portfolio</title>
@@ -28,7 +30,7 @@
         <!--Delete placehodler img and switch with a title and logo with a background img -->
         <div class="img-container background-container">
             <!--<img class="box1" src="./Assests/placeholder-1-e1533569576673-960x960.png" alt="Placeholder img">-->
-            <nav class="nav-link"></nav>
+            <nav class="nav-link">
                 <ul class="ul-links">
                     <a class="links" href="#aboutme1">About Me</a>
 
@@ -38,10 +40,23 @@
 
                     <a class="links" href="./Assests/Phillip-Pereira (1).pdf">Resume</a>
                 </ul>
+
+                <div class="topnav menu-btn">
+                    <a href="#home" class="active"></a>
+                    <div id="myLinks">
+                        <a class="links" href="#aboutme1">About Me</a>
+                        <a class="links" href="#work1">Work</a>
+                        <a class="links" href="#contactme1">Contact Me</a>
+                        <a class="links" href="./Assests/Phillip-Pereira (1).pdf">Resume</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </nav>
 
             <div class="bck-div">
-                <img src="./Assests/My project.png" alt="Logo">
+                <img src="./Assests/My project.png" alt="Logo" id="name-logo">
             </div>
             <!-- <div class="bck-div">
                 <h1 class="bck-text" style="width: 50%;">PP</h1>
@@ -181,5 +196,6 @@
         </div>
     </main>
 </body>
-
+<!--Menu btn on mobile-->
+<script src="./menubtn.js"></script>
 </html>
