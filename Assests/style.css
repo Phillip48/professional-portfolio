@@ -412,6 +412,15 @@ body {
   box-shadow: 0 0 10px #000 inset;
 }
 
+/* Added border and border radius  */
+#img-PWG,
+#img-RQG,
+#img-WDS,
+#img-API,
+#img-github {
+  border: solid 1px black;
+  border-radius: 5%;
+}
 
 @media screen and (max-width: 1110px) {
   #name-logo {
