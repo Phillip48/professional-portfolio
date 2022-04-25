@@ -272,6 +272,17 @@ body {
   margin-right: 1.5rem;
 }
 
+/* .fix-flex1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fix-flex2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+} */
+
 .placeholderimg {
   position: relative;
   min-width: 70%;
@@ -287,6 +298,13 @@ body {
   padding: .5rem;
   width: 90%;
   height: 38.125rem;
+}
+
+.div-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-text2 {

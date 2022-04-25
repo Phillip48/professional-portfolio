@@ -1,19 +1,39 @@
-# professional-portfolio
 
-Live site: https://phillip48.github.io/professional-portfolio/
+# Professional portfolio  
+  
+## Table of contents   
+-[Deployed link](#Deployed-link)  
+-[Description](#Description)  
+-[Images](#Images)    
+-[Installation](#Installation)     
+-[Contact](#Contact-Me)    
+-[License](#License)     
+-[Contributors](#Contributors)  
 
-## Welcome to my Professional Portfolio
-The mission of this project is to make a working and good looking professional portfolio. In order to do that i added many things to this project. Such as: hover affects, working links and background imgs with text. As of right now there is no JS in this file just HTML and CSS.
+## Deployed link  
+https://phillip48.github.io/professional-portfolio/  
+## Description  
+This is my professional portfolio! You'll find projects ive worked on and a little about me.
 
-Screenshot 1:
-![img1](./Assests/read.md%20img/homepage1.png)
+### Images  
+![Img 1](./Assests/read.md%20img/homepage.png)  
+   Img of the homepage  
+![Img 2](./Assests/read.md%20img/about%20me.png)   
+![Img 3](./Assests/read.md%20img/work1.png)    
+![Img 4](./Assests/read.md%20img/work%20and%20contact.png)   
+  Img of the rest of the body of the website  
 
-Screenshot 2:
-![img2](./Assests/read.md%20img/aboutme1.png)
+## Installation   
+`git clone git@github.com:Phillip48/professional-portfolio.git`  
 
-Screenshot 3:
-![img3](./Assests/read.md%20img/work.png)
+## Contact Me  
+Github: Phillip48  
+Email: Phillippereira02@gmail.com  
 
-Screenshot 4:
-![img4](./Assests/read.md%20img/porfolio3.png)
+## License   
+This project has no license
+   
+## Contributors  
+*Phillip48*  
 
+  
